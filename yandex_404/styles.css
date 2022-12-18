@@ -1,0 +1,38 @@
+
+
+body {
+  color: #2f80ed;
+  font-family: "Inter", Helvetica, Arial, sans-serif;
+  margin:0px;
+}
+.header-image {
+    width: 520px;
+    height: 190px;
+/*    margin:60px 380px 10px;*/
+    margin:30px 380px 10px;
+}
+.font1 {
+  font-size:120px;
+  width:420px;
+  font-weight:normal;
+  text-align: center;
+  margin:10px 430px 0px;
+}
+.font2 {
+  font-size:0px;
+  width:420px;
+  font-weight:normal;
+  text-align:center;
+  margin:22px 430px 280px;
+}
+.font3{
+  font-size:17px;
+  width:420px;
+  margin:0px 430px 30px;
+  font-weight:normal;
+  text-align: center; 
+}
+.font1:hover~.font2 {
+  font-size:17px;   
+  margin-bottom:140px;
+}
